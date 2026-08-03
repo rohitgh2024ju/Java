@@ -3,7 +3,7 @@ package chap6practice;
 public class ClassRectangle {
     public static void main(String[] args) {
         Rectangle rect = new Rectangle(12.5f, 15.6f);
-        
+
         System.out.println(rect.perimeter());
         System.out.println(rect.area());
         System.out.println(rect.diagonal());
